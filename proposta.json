@@ -1,0 +1,262 @@
+{
+  "slug": "laser-hall",
+  "negocio": {
+    "nome": "Laser Hall · Soluções Estéticas",
+    "logo": "brand/logo.png",
+    "whatsapp": "5548998455216",
+    "unidades": [
+      {
+        "bairro": "Canto · Florianópolis",
+        "endereco": "R. Gen. Liberato Bittencourt, 1474 – Canto, Florianópolis – SC, 88075-400",
+        "telefone": "(48) 99832-6289"
+      },
+      {
+        "bairro": "Santa Mônica · Florianópolis",
+        "endereco": "Av. Madre Benvenuta, 1093, loja 01 – Santa Mônica, Florianópolis – SC, 88035-000",
+        "telefone": "(48) 99680-5572"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#5B3A8E",
+    "brand2": "#432870",
+    "ink": "#1E1636",
+    "bg": "#F8F6FB",
+    "pulse": "#2483AA",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Outfit",
+    "fontBody": "DM Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "luz",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Por que sessões", "href": "#sessoes" },
+          { "texto": "Preparo", "href": "#preparo" },
+          { "texto": "Unidades", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Canto · Santa Mônica",
+        "h1": "Pele lisa, sem lâmina e sem foliculite",
+        "lead": "Depilação a laser de diodo para mulheres e homens, Ultraformer e toxina botulínica. Mais de dez anos de laser em Florianópolis, em duas unidades.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "4,8 no Google · +10 anos de laser · ",
+        "cardTitulo": "Escolha a unidade mais perto",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Depilação a laser",
+          "Laser de diodo",
+          "Feminina e masculina",
+          "Ultraformer",
+          "Toxina botulínica",
+          "Canto",
+          "Santa Mônica"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "A Laser Hall em quatro números",
+        "itens": [
+          { "valor": "+10", "rotulo": "anos de depilação a laser" },
+          { "valor": "2", "rotulo": "unidades em Florianópolis", "contar": 2 },
+          { "valor": "4,8", "rotulo": "de nota no Google" },
+          { "valor": "150", "rotulo": "avaliações na unidade Canto", "contar": 150 }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "Como a gente trabalha",
+        "citacao": "Deixa a Laser Hall cuidar de você.",
+        "autor": "Laser Hall",
+        "texto": [
+          "Dez anos de laser ensinam que cada pele e cada pelo respondem de um jeito. Por isso o protocolo sai da avaliação: a área, o tom da pele, a cor e a espessura do pelo. Não sai de uma tabela.",
+          "E vem dito com franqueza o que o laser faz e o que não faz. Pelo branco ou muito claro tem pouca melanina para a luz encontrar. Você fica sabendo disso antes de fechar o pacote, e não depois da quarta sessão."
+        ],
+        "imagem": "midia/simbolo-parede.jpg",
+        "imagemAlt": "Símbolo da Laser Hall em acrílico, do roxo ao azul, na parede branca da unidade Canto"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "O laser é a casa. O rosto entrou depois, com aparelho e aplicação próprios.",
+        "itens": [
+          {
+            "nome": "Depilação a laser feminina",
+            "descricao": "Do buço aos pés: rosto, axilas, virilha, perianal, braços e pernas. Dá para juntar áreas na mesma sessão e montar o pacote pelo que você quer tratar.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Depilação a laser masculina",
+            "descricao": "Barba e pescoço, peito e abdômen, costas e ombros. Para quem raspa todo dia e convive com pelo encravado no rosto.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Foliculite e pelo encravado",
+            "descricao": "A lâmina corta o pelo rente e ele volta com a ponta grossa, que encrava. O laser enfraquece o folículo: o pelo volta mais fino a cada sessão, e a pele para de inflamar.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Ultraformer",
+            "descricao": "Ultrassom microfocado que estimula colágeno e redesenha o contorno do rosto. Sem cortes e sem tempo de recuperação: você sai da sessão e volta à rotina.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas da testa e em volta dos olhos sem tirar o movimento do rosto. Começa por uma avaliação, que diz se é o caso e quanto aplicar.",
+            "icone": "seringa"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/ciclo.html" },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Da primeira mensagem à última sessão",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "texto": "Diga a área que quer tratar e qual unidade fica melhor para você, Canto ou Santa Mônica.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "Tom da pele, cor e espessura do pelo, medicação em uso. É daí que saem o número de sessões e o intervalo entre elas.",
+            "icone": "pele"
+          },
+          {
+            "titulo": "As sessões",
+            "texto": "Pele raspada na véspera, área limpa, disparos rápidos. Uma sessão de axila cabe no horário de almoço.",
+            "icone": "laser"
+          },
+          {
+            "titulo": "A próxima data",
+            "texto": "O intervalo segue o ciclo do pelo. Sair já com a próxima sessão marcada é o que mantém o tratamento no ritmo certo.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/preparo.html" },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "As duas casas",
+        "lead": "Recepção no Canto, fachada em Santa Mônica e a equipe de lilás que atende nas duas.",
+        "itens": [
+          { "imagem": "midia/recepcao-canto.jpg", "legenda": "Recepção da unidade Canto" },
+          { "imagem": "midia/fachada-sm.jpg", "legenda": "Fachada em Santa Mônica" },
+          { "imagem": "midia/equipe.jpg", "legenda": "A equipe Laser Hall" }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou pela Laser Hall",
+        "itens": [
+          {
+            "texto": "Fiquei muito feliz com o resultado, tudo foi passado de forma bem clara e transparente. Para homens que precisam deste tipo de serviço é realmente fantástico.",
+            "autor": "José Ricardo",
+            "contexto": "Cliente Laser Hall"
+          },
+          {
+            "texto": "Estava preocupada se os agendamentos iriam encaixar com a minha agenda, mas tudo correu muito bem e estou bem satisfeita com a laserhall.",
+            "autor": "Juliana Gomes",
+            "contexto": "Cliente Laser Hall"
+          },
+          {
+            "texto": "Os serviços na laserhall foram realizados com muita atenção e os profissionais sempre foram muito atenciosos, recomendo.",
+            "autor": "Graciella",
+            "contexto": "Cliente Laser Hall"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Dói?",
+            "r": "Você sente, mas é rápido: um calor pontual a cada disparo. E diminui ao longo do tratamento, porque o pelo volta mais fino a cada sessão."
+          },
+          {
+            "p": "Quantas sessões vou precisar?",
+            "r": "Depende da área, do tom da pele e do pelo. A avaliação define o pacote. O que dá para dizer de antemão: o pelo vai afinando e rareando sessão a sessão."
+          },
+          {
+            "p": "Funciona em pelo branco ou loiro?",
+            "r": "Pouco. O laser encontra o pelo pela melanina, e pelo branco ou muito claro quase não tem. A avaliação diz isso antes de você fechar qualquer pacote."
+          },
+          {
+            "p": "Posso ir à praia durante o tratamento?",
+            "r": "Pode, com cuidado: nada de sol na área 15 dias antes e 7 dias depois de cada sessão, e protetor FPS 30 ou mais todos os dias. Pele bronzeada não pode receber o disparo."
+          },
+          {
+            "p": "Homem também faz?",
+            "r": "Faz, e muito. Barba, pescoço, peito, abdômen, costas e ombros estão entre as áreas mais procuradas."
+          },
+          {
+            "p": "Posso usar cera entre as sessões?",
+            "r": "Não. Cera e pinça tiram o pelo pela raiz, e é pela raiz que o laser trabalha. Entre as sessões, só lâmina."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "Duas unidades em Florianópolis"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Ainda dá tempo de começar antes do verão",
+        "lead": "Mande a área que quer tratar e a unidade mais perto. A equipe responde com o horário da avaliação.",
+        "cta": "Agendar avaliação"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<section class="blk-preparo" id="preparo">
+  <div class="wrap">
+    <div class="blk-preparo__cab" data-reveal>
+      <p class="blk-preparo__eyebrow">Antes e depois da sessão</p>
+      <h2 class="blk-preparo__titulo">Metade do resultado acontece em casa</h2>
+      <p class="blk-preparo__lead">Pele bronzeada absorve a luz que devia ir para o pelo. Pelo arrancado pela raiz não deixa nada para o laser encontrar. Os cuidados abaixo existem por esses dois motivos.</p>
+    </div>
+    <div class="blk-preparo__cols">
+      <div class="blk-preparo__col" data-reveal style="--d:0ms">
+        <h3><span class="blk-preparo__ico"><!--icone:agenda--></span>Nos dias antes</h3>
+        <ul>
+          <li><strong>Sol, só daqui a 15 dias.</strong> A área precisa chegar sem bronzeado.</li>
+          <li><strong>Lâmina, sim. Cera e pinça, não.</strong> Raspe um ou dois dias antes, bem rente. Entre as sessões, nada que tire o pelo pela raiz.</li>
+          <li><strong>Axila sem desodorante</strong> no dia da sessão.</li>
+          <li><strong>Conte o que você usa:</strong> remédio, ácido, outro tratamento na área.</li>
+        </ul>
+      </div>
+      <div class="blk-preparo__col" data-reveal style="--d:120ms">
+        <h3><span class="blk-preparo__ico"><!--icone:sol--></span>Na semana depois</h3>
+        <ul>
+          <li><strong>Sete dias longe do sol</strong> na área tratada.</li>
+          <li><strong>Protetor FPS 30 ou mais</strong>, todo dia, mesmo nublado.</li>
+          <li><strong>Nada de calor logo depois:</strong> academia pesada, sauna, banho muito quente.</li>
+          <li><strong>Pele hidratada</strong> até a próxima sessão.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-preparo{padding-block:var(--sp-section)}
+.blk-preparo__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-preparo__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-preparo__lead{margin:var(--sp-3) 0 0;max-width:38rem;line-height:1.65;color:var(--ink-soft)}
+.blk-preparo__cols{display:grid;gap:var(--sp-4);margin-top:var(--sp-5)}
+.blk-preparo__col{padding:var(--sp-4);border-radius:var(--r-lg);background:var(--bg-2);border:1px solid var(--line)}
+.blk-preparo__col h3{display:flex;align-items:center;gap:.6rem;margin:0;font-family:var(--f-display);font-size:1.5rem;font-weight:500;color:var(--brand)}
+.blk-preparo__ico{display:inline-flex;width:2rem;height:2rem;color:var(--pulse)}
+.blk-preparo__ico svg{width:100%;height:100%}
+.blk-preparo__col ul{list-style:none;margin:var(--sp-3) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-preparo__col li{padding-left:1.1rem;border-left:2px solid color-mix(in srgb,var(--pulse) 45%,transparent);line-height:1.6;color:var(--ink-soft)}
+.blk-preparo__col li strong{color:var(--ink)}
+@media (min-width:64rem){
+  .blk-preparo__cols{grid-template-columns:1fr 1fr;gap:var(--sp-5)}
+  .blk-preparo__col{padding:var(--sp-5)}
+}
+</style>
